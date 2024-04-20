@@ -1,8 +1,8 @@
-vim.o.tabstop = 4
+vim.opt.tabstop = 4
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
 
 require("options")
 require("keymaps")
